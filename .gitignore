@@ -1,0 +1,33 @@
+# Runtime logs
+/logs/*
+!/logs/.gitkeep
+
+# Generated health reports
+/reports/*
+!/reports/.gitkeep
+
+# Alert state files
+/config/alert-state/*
+!/config/alert-state/.gitkeep
+
+# Log files anywhere in the project
+*.log
+
+# Compressed backup archives
+*.tar.gz
+
+# Development backup copies
+*.bak
+*.bak-*
+*.before-dedup
+*.phase3-backup
+
+# Stray nested logs
+/scripts/logs/
+
+# Temporary restoration directory
+/restore-test/
+
+# Operating system and editor files
+.DS_Store
+*~
